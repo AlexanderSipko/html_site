@@ -3,18 +3,20 @@
 
 body {
     background-color: aqua;
+    
 }
 
 * {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #FFFFFF;
+    box-sizing: border-box;
 }
 
 .nav {
     height: 80px;
     background: #000000;
-    width: 1920px;
+    width: 1250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,4 +40,20 @@ body {
     border-radius: 15px;
     width: 200px;
     height: 40px;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+.section--one--image {
+    width: 1250px;
+    height: 786px;
+    background: #0649F3;
+}
+
+.section--one--image--text > h1 {
+    margin: 0;
 }
