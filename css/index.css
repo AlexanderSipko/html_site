@@ -1,0 +1,41 @@
+
+
+
+body {
+    background-color: aqua;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.nav {
+    height: 80px;
+    background: #000000;
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+.nav--profile {
+    list-style-type: none;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.nav--profile > li {
+    padding-right: 30px;
+}
+
+.nav--button {
+    background: #FF6B00;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+}
