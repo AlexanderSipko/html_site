@@ -50,7 +50,7 @@ body {
 .section--one--image {
     width: 100%;
     height: 786px;
-    background: url(/Users/aleksandrsipko/GM_HTML/media/office.png) no-repeat center center;
+    background: url(../media/office_fon.png) no-repeat center center;
     padding-top:160px;
 }
 
