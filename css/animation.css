@@ -1,0 +1,9 @@
+.section--mimage {
+  animation: 6s linear 0s normal none infinite running rot;
+}
+@keyframes rot {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
